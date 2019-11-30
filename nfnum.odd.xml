@@ -1,14 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
  xml:lang="en" n="testms">
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    <title>Nouvelle-France numérique</title>
-    <author>Maxime Gohier</author>
+    <title>Schéma XML-TEI pour Nouvelle-France numérique</title>
+    <author>
+     <persName>
+      <forename>Maxime</forename>
+      <surname>Gohier</surname>
+     </persName>
+    </author>
+    <author>
+     <persName>
+      <forename>Catherine</forename>
+      <surname>Broué</surname>
+     </persName>
+    </author>
+    <respStmt>
+     <resp>Accompagnement pour la création du premier schéma</resp>
+     <persName>
+      <forename>Emmanuel</forename>
+      <surname>Chateau-Dutier</surname>
+     </persName>
+    </respStmt>
    </titleStmt>
    <publicationStmt>
-    <publisher>TEI Consortium</publisher>
+    <publisher>Nouvelle France numérique</publisher>
     <availability status="free">
      <licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed under a Creative
       Commons Attribution-ShareAlike 3.0 Unported License </licence>
@@ -42,9 +60,14 @@
     <note type="ns">http://www.example.org/ns/nfn</note>
    </notesStmt>
    <sourceDesc>
-    <p>Written from scratch.</p>
+    <p>Fichier nativement numérique.</p>
    </sourceDesc>
   </fileDesc>
+  <revisionDesc>
+   <listChange>
+    <change when="2019-11-29">Première version, version 0.1</change> 
+   </listChange>
+  </revisionDesc>
  </teiHeader>
  <text>
   <body>
